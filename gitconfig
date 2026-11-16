@@ -61,4 +61,10 @@
   defaultBranch = master
 [user]
 	email = digid@digid.com.br
-	name = Leonardo S. Val de Casas
+	name = Leonardo S Val de Casas
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
